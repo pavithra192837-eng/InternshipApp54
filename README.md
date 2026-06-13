@@ -1,50 +1,106 @@
-# Welcome to your Expo app 👋
+# 📱 InternshipApp54 - React Native Portfolio App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🚀 Overview
+InternshipApp54 is a React Native mobile application built using **Expo** as part of the *VertexMind Mobile App Development Internship - Mission 1: UI Fundamentals*.
 
-## Get started
+The app demonstrates multi-screen navigation, clean UI design, and a personal portfolio structure.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🎯 Objective
+The objective of this project is to:
+- Set up a React Native development environment
+- Build a multi-screen mobile application
+- Implement navigation between screens
+- Design a clean and modern UI
+- Understand mobile app structure using Expo Router
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
+- React Native  
+- Expo  
+- Expo Router  
+- JavaScript / TypeScript  
+- Node.js  
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🏠 Home Screen
+- Introduction portfolio card  
+- Personal details display  
+- Mission overview section  
 
-## Get a fresh project
+### 👤 Profile Screen
+- Student information  
+- Education details  
+- Skills overview  
+- About Me section  
+- Navigation button to Contact screen  
 
-When you're ready, run:
+### 📞 Contact Screen
+- Email information  
+- LinkedIn profile link  
+- GitHub profile link  
 
-```bash
-npm run reset-project
-```
+### 📂 Projects Screen
+- Sample project listing  
+- Future project placeholders  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🧭 Navigation
+- Bottom Tab Navigation using Expo Router  
+- Screen-to-screen navigation using buttons  
+- Smooth routing between Home, Profile, Contact, and Projects  
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🎨 UI Design
+- Dark theme interface  
+- Card-based layout design  
+- Consistent spacing and typography  
+- Mobile-friendly responsive layout  
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 📂 Project Structure
+app/
+├── (tabs)/
+│ ├── index.tsx
+│ ├── profile.tsx
+│ ├── contact.tsx
+│ ├── projects.tsx
+│ └── _layout.tsx
+assets/
+components/
+constants/
+hooks/
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## ⚙️ Installation & Setup
+
+git clone https://github.com/pavithra192837-eng/InternshipApp54.git
+
+cd InternshipApp54
+
+npm install
+
+npx expo start
+## 👨‍💻 Author
+
+Pavithra Rajaraman
+ECE Student | React Native Developer
+
+GitHub: https://github.com/pavithra192837-eng
+LinkedIn: https://www.linkedin.com/in/pavithra-rajaraman-085b2b30a
+
+## 📌 Status
+
+✔ Mission 1 Completed
+🚀 Ready for Mission 2 Development
+
+## ⭐ Acknowledgement
+
+This project is part of a structured internship program focused on mobile app development using React Native and Expo.
