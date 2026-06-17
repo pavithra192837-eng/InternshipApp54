@@ -104,3 +104,28 @@ LinkedIn: https://www.linkedin.com/in/pavithra-rajaraman-085b2b30a
 ## ⭐ Acknowledgement
 
 This project is part of a structured internship program focused on mobile app development using React Native and Expo.
+## 🚀 Mission 2: State Management & API Integration
+
+### Features Implemented
+
+✅ State Management using useState
+
+✅ Side Effects using useEffect
+
+✅ API Integration for fetching dynamic data
+
+✅ Loading State using ActivityIndicator
+
+✅ Error Handling for failed API requests
+
+✅ Local Storage using AsyncStorage
+
+✅ Feedback Form with persistent data storage
+
+### Learning Outcomes
+
+- Understood React Hooks (useState, useEffect)
+- Worked with APIs and asynchronous operations
+- Implemented loading and error states
+- Stored and retrieved data using AsyncStorage
+- Improved user experience with interactive UI components
